@@ -1,0 +1,31 @@
+#app {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.content {
+  padding: 40px;
+  background: #fff;
+  height: calc(100% - 80px);
+  overflow: scroll;
+}
+
+.content-title {
+  margin-bottom: 20px;
+}
+
+.header {
+  padding: 0 40px;
+  height: 60px;
+  line-height: 60px;
+  background: #fff;
+  margin-bottom: 40px;
+  box-shadow: 2px 0 7px rgba(8, 16, 34, 0.3);
+}
+
+.page {
+  margin-top: 20px;
+  float: right;
+}

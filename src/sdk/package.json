@@ -1,0 +1,37 @@
+{
+  "name": "pecker-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc -p tsconfig.json",
+    "rollup": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.tenddata.com:git/fa-monitor-sdk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "lodash": "^4.17.11",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-typescript": "^1.0.0",
+    "rollup-plugin-uglify": "^6.0.0",
+    "rxjs": "^6.3.3",
+    "tslib": "^1.9.3",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "@babel/core": "^7.2.0",
+    "babel-preset-es2015": "^6.24.1",
+    "rollup-plugin-babel": "^4.0.3"
+  }
+}

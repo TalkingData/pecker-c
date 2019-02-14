@@ -1,0 +1,29 @@
+.markdown {
+  width: 960px;
+  margin: 0 auto;
+  line-height: 50px;
+
+  h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 24px 0 16px;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid #eaeaea;
+    color: #2e2e2e;
+  }
+
+  pre {
+    font-size: 13px;
+    line-height: 1.6em;
+    overflow-x: auto;
+    border-radius: 2px;
+    color: #2e2e2e;
+    display: block;
+    padding: 22px;
+    margin: 0 0 16px;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #fafafa;
+    border: 1px solid #e5e5e5;
+  }
+}

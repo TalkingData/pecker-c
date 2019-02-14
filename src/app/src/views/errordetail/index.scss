@@ -1,0 +1,67 @@
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.error-detail-box {
+  height: calc(100% - 100px);
+  overflow: scroll;
+
+  .error-detail-header {
+    padding: 15px 40px;
+    background: #fff;
+
+    .error-type {
+      margin-left: 30px;
+      margin-right: 40px;
+    }
+  }
+
+  .error-item {
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .error-item:hover {
+    background: #e6f7ff;
+    transition: all 0.5s ease;
+    border-left: 6px solid #2d8cf0;
+  }
+
+  .active {
+    background: #e6f7ff;
+    border-left: 6px solid #2d8cf0;
+  }
+
+  .message-box {
+    padding: 20px;
+    border-left: 1px solid #ccc;
+
+    li {
+      border-bottom: 1px solid #ccc;
+      line-height: 40px;
+
+      span:nth-child(1) {
+        margin-right: 20px;
+      }
+    }
+  }
+
+  .error-name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 210px;
+  }
+}

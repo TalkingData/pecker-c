@@ -1,0 +1,82 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 12px "Microsoft Yahei", Verdana, Geneva, sans-serif, "黑体";
+  background-color: #f6f7f9 !important;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+em {
+  font-style: normal;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+table {
+  /* border-collapse: collapse; */
+  border-spacing: 0;
+}
+
+p {
+  word-wrap: break-word;
+}
+
+/* i {
+  font: 12px "Microsoft Yahei", Verdana, Geneva, sans-serif, "黑体";
+} */
+
+input {
+  outline: none;
+}
+
+.clearfix::after,
+.clearfix::before {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #a9a9a9;
+}
+
+.w-e-toolbar,
+.w-e-droplist {
+  z-index: 10001;
+}
+
+.w-e-text-container {
+  z-index: 0 !important;
+}
+
+.modal-no-footer .ivu-modal-footer {
+  border-top: none;
+}
