@@ -1,0 +1,31 @@
+{
+  "name": "yunzhen",
+  "version": "1.0.0",
+  "description": "A front-end monitoring system based on node and mongodb",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TalkingData/yunzhen.git"
+  },
+  "keywords": [
+    "front-end",
+    "monitoring",
+    "node"
+  ],
+  "author": "TD",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TalkingData/yunzhen/issues"
+  },
+  "homepage": "https://github.com/TalkingData/yunzhen#readme",
+  "devDependencies": {
+    "shelljs": "^0.8.3"
+  }
+}

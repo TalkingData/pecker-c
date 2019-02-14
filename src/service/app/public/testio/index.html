@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test socket.io</title>
+    <script src="socket.io.js"></script>
+    <script src="client.js"></script>
+</head>
+<body>
+    <input type="text" id="appkey">
+    <button onclick="filter()">修改appkey</button>
+    <div id="io-data"></div>
+</body>
+<script>
+    
+    function filter(){
+        let appkey = document.getElementById("appkey").value;
+        socketClient.filter({appkey:appkey});
+    }
+    function init(){
+        let dataNode = document.getElementById("io-data");
+        socketClient.onChange((data)=>{
+            dataNode.innerHTML+=`<div>${JSON.stringify(data)}</div>`;
+        });
+    }
+    init();
+    
+</script>
+</html>

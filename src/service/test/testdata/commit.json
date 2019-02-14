@@ -1,0 +1,15 @@
+{
+    "appkey":"lkjhdgstyusdjsd",
+    "appVersion":"1.0",
+    "records": [
+      {
+        "type": "caughtError",
+        "data": {
+          "occurTime": 1542177249367,
+          "url": "http://www.test.com/index.html",
+          "stacktrace": "ReferenceError: stack is not defined\n    at eval (eval at e.ngOnInit (http://127.0.0.1:8080/main.9228018239f645402297.js:1:133583), <anonymous>:1:1)\n    at e.ngOnInit (http://127.0.0.1:8080/main.9228018239f645402297.js:1:133583)\n    at http://127.0.0.1:8080/main.9228018239f645402297.js:1:102626\n    at http://127.0.0.1:8080/main.9228018239f645402297.js:1:102669\n    at ki (http://127.0.0.1:8080/main.9228018239f645402297.js:1:103992)\n    at Ji (http://127.0.0.1:8080/main.9228018239f645402297.js:1:110510)\n    at Object.updateDirectives (http://127.0.0.1:8080/main.9228018239f645402297.js:1:136469)\n    at Object.updateDirectives (http://127.0.0.1:8080/main.9228018239f645402297.js:1:119368)\n    at Object.xi [as checkAndUpdateView] (http://127.0.0.1:8080/main.9228018239f645402297.js:1:100573)\n    at e.detectChanges (http://127.0.0.1:8080/main.9228018239f645402297.js:1:84859)",
+          "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36"
+        }
+      }
+    ]
+}

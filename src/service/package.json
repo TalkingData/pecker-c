@@ -1,0 +1,76 @@
+{
+  "name": "fa-monitor-services",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "egg": {
+    "typescript": true
+  },
+  "scripts": {
+    "start": "egg-scripts start --daemon --title=egg-server-fa-monitor-services --sticky",
+    "start-prod": "egg-scripts start --env=prod  --daemon --title=egg-server-fa-monitor-services --sticky",
+    "stop": "egg-scripts stop --title=egg-server-fa-monitor-services",
+    "dev": "egg-bin dev -r egg-ts-helper/register --port 7001 --sticky",
+    "debug": "egg-bin debug -r egg-ts-helper/register",
+    "test-local": "egg-bin test -r egg-ts-helper/register",
+    "test": "npm run lint -- --fix && npm run test-local",
+    "cov": "egg-bin cov -r egg-ts-helper/register",
+    "tsc": "ets && tsc -p tsconfig.json",
+    "ci": "npm run lint && npm run cov && npm run tsc",
+    "autod": "autod",
+    "lint": "tslint --project . -c tslint.json",
+    "clean": "ets clean",
+    "startdb": "./database/mongodb/bin/mongod --dbpath ./database/data"
+  },
+  "dependencies": {
+    "@types/nodemailer": "^4.6.5",
+    "await-fs": "^1.0.0",
+    "egg": "^2.14.1",
+    "egg-cors": "^2.1.1",
+    "egg-mongoose": "^3.1.1",
+    "egg-passport": "^2.0.1",
+    "egg-passport-local": "^1.2.1",
+    "egg-scripts": "^2.6.0",
+    "egg-socket.io": "^4.1.5",
+    "egg-validate": "^2.0.2",
+    "egg-view-ejs": "^2.0.0",
+    "error-stack-parser": "^2.0.2",
+    "md5": "^2.2.1",
+    "nodemailer": "^4.7.0",
+    "source-map": "^0.7.3",
+    "typegoose": "^5.4.1",
+    "ua-device": "^0.1.10",
+    "ua-parser-js": "^0.7.19",
+    "validator": "^10.9.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^2.2.40",
+    "@types/node": "^7.0.12",
+    "@types/supertest": "^2.0.0",
+    "autod": "^3.0.1",
+    "autod-egg": "^1.1.0",
+    "egg-bin": "^4.6.2",
+    "egg-ci": "^1.8.0",
+    "egg-mock": "^3.16.0",
+    "egg-ts-helper": "^1.11.0",
+    "pm2": "^3.2.9",
+    "tslib": "^1.9.0",
+    "tslint": "^4.0.0",
+    "typescript": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "ci": {
+    "version": "8"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "eslintIgnore": [
+    "coverage"
+  ],
+  "author": "",
+  "license": "MIT"
+}
