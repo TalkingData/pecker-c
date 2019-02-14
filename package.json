@@ -1,5 +1,5 @@
 {
-  "name": "yunzhen",
+  "name": "pecker-c",
   "version": "1.0.0",
   "description": "A front-end monitoring system based on node and mongodb",
   "main": "app.js",
@@ -17,7 +17,8 @@
   "keywords": [
     "front-end",
     "monitoring",
-    "node"
+    "node",
+    "pecker-cloud"
   ],
   "author": "TD",
   "license": "MIT",
