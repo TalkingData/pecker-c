@@ -1,6 +1,2 @@
-const main = require('./shell/main')
-main(__dirname)
-
-
-
-
+const main = require("./scripts/main");
+typeof main === "function" && main(__dirname);
