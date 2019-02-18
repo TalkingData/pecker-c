@@ -8,11 +8,14 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pecker:init": "node app",
+    "pecker:start": "npm-run-all --parallel service app",
+    "service": "node ./scripts/service",
+    "app": "node ./scripts/app"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TalkingData/yunzhen.git"
+    "url": "git+https://github.com/TalkingData/pecker-c.git"
   },
   "keywords": [
     "front-end",
@@ -23,10 +26,11 @@
   "author": "TD",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TalkingData/yunzhen/issues"
+    "url": "https://github.com/TalkingData/pecker-c/issues"
   },
-  "homepage": "https://github.com/TalkingData/yunzhen#readme",
+  "homepage": "https://github.com/TalkingData/pecker-c#readme",
   "devDependencies": {
+    "npm-run-all": "^4.1.5",
     "shelljs": "^0.8.3"
   }
 }

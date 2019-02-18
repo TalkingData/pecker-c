@@ -6,5 +6,7 @@ src/service/node_modules/
 .DS_Store
 .vscode
 
+tests/data/
+
 package-lock.json
 npm-debug.log
