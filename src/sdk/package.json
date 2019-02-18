@@ -13,11 +13,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.tenddata.com:git/fa-monitor-sdk.git"
+    "url": "https://github.com/TalkingData/pecker-c"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "eslint": "^5.9.0",
     "lodash": "^4.17.11",

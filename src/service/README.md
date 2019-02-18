@@ -1,33 +1,32 @@
 ## QuickStart
 
 ### Development
-安装VS Code + eggjs插件（在vscode 插件库中搜索eggjs，第一个就是）
+
+安装 VS Code + eggjs 插件
 
 ```bash
-git clone git@gitlab.tenddata.com:git/fa-monitor-services.git
-cd fa-monitor-service
 npm install
 ```
 
-启动mongoDB
+启动 mongoDB
+
 ```bash
-npm run startdb
+npm run start:db
 ```
 
-在VS Code中打开代码
-参考 https://github.com/eggjs/vscode-eggjs 进行开发调试[eggjs]: 
+在 VS Code 中打开代码
+参考 https://github.com/eggjs/vscode-eggjs 进行开发调试[eggjs]:
 ![](https://github.com/eggjs/vscode-eggjs/raw/master/snapshot/debugger.gif)
 
-
 ### Typegoose
-model的定义我们用到了Typegoose，参考 https://github.com/szokodiakos/typegoose
-Typegoose使用TS的注解将普通的TS类声明为mongoos的Model，这些类可以同时作为实体类（pojo）和 mongoos 的model使用。
+
+model 的定义我们用到了 Typegoose，参考 https://github.com/szokodiakos/typegoose
+Typegoose 使用 TS 的注解将普通的 TS 类声明为 mongoos 的 Model，这些类可以同时作为实体类（pojo）和 mongoos 的 model 使用。
 
 ### Deploy
 
 ```bash
-$ npm run tsc
-$ npm start
+$ npm run tsc && npm start
 ```
 
 ### Npm Scripts

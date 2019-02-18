@@ -9,7 +9,6 @@ export default {
   output: {
     file: "pecker/index.js",
     format: "cjs"
-    // name:'YZMonitor'
   },
   plugins: [
     typescript({ module: "CommonJS" }),

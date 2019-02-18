@@ -1,11 +1,11 @@
 # fa-monitor
 
-> 前端错误监控
+> 云诊
 
 # 目录结构
 
 ```
-├── build                      // 构建相关  
+├── build                      // 构建相关
 ├── config                     // 配置相关
 ├── src                        // 源代码
 │   ├── assets                 // 图片 样式等静态资源
@@ -26,7 +26,7 @@
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 npm install
 
