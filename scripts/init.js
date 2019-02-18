@@ -11,6 +11,11 @@ module.exports = function() {
     shell.cd("../service");
     shell.echo("Install dependencies for service...");
     shell.exec("npm i");
+
+    shell.echo("Next...");
+    shell.cd("../sdk");
+    shell.echo("Install dependencies for sdk...");
+    shell.exec("npm i");
     shell.echo(
       'Dependent installation success.You can now use "npm run pecker:start" to use the program.'
     );
