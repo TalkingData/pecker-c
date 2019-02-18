@@ -8,8 +8,11 @@ node_js:
   - "10"
   - "9"
   - "8"
+install:
+  - npm i
+  - npm run pecker:init
 script:
-  - npm start
+  - npm run pecker:start
 after_success:
   # - npm run travis-deploy-once "npm run semantic-release"
 branches:
