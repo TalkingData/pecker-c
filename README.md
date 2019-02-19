@@ -35,9 +35,14 @@ $ npm run pecker:start
 
 ## 团队
 
-| Name                                | Avatar                                                         |
-| ----------------------------------- | -------------------------------------------------------------- |
-| [lamphc](https://github.com/lamphc) | ![](https://avatars1.githubusercontent.com/u/8814577?s=64&v=4) |
+| Name                                            | Avatar                                                          |
+| ----------------------------------------------- | --------------------------------------------------------------- |
+| [lamphc](https://github.com/lamphc)             | ![](https://avatars1.githubusercontent.com/u/8814577?s=64&v=4)  |
+| [nienei5208](https://github.com/nienei5208)     | ![]()                                                           |
+| [TMC-01](https://github.com/TMC-01)             | ![]()                                                           |
+| [itchenguohua](https://github.com/itchenguohua) | ![]()                                                           |
+| [VN-VS](https://github.com/VN-VS)               | ![](https://avatars3.githubusercontent.com/u/20916400?s=64&v=4) |
+| [itdys](https://github.com/itdys)               | ![](https://avatars3.githubusercontent.com/u/18610140?s=64&v=4) |
 
 ## License
 
