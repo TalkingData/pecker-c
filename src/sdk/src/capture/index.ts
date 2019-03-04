@@ -1,5 +1,5 @@
-import { nativeJS } from "./nativeJS";
-import { handleErr} from './handleError';
+import nativeJS from "./nativeJS";
+import handleErr from './handleError';
 import { ConfigParams } from '../interfaces'
 import Config  from '../config'
 export  class YZMonitor{

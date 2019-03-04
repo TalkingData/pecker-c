@@ -1,7 +1,7 @@
 import { parmas } from '../interfaces/index'
 import { queryString } from '../util/index'
 import  Config from '../config/index'
-export function handleErr(error:any,type:string):void{
+export default function handleErr(error:any,type:string):void{
     let msg:parmas = {
         appkey:Config.appkey,
         disable:Config.disable,

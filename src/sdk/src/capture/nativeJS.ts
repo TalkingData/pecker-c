@@ -1,11 +1,10 @@
 
-import { handleErr } from './handleError'
-import { httpMsg } from '../interfaces/index'
-export function nativeJS(){
+import  handleErr  from './handleError'
+export default function nativeJS(){
     //js错误
-    window['error'] = function(msg:string):void{
-        handleErr(msg,'caught');
-    }
+    // window['error'] = function(msg:string):void{
+    //     handleErr(msg,'caught');
+    // }
     //promise错误
     window.addEventListener('unhandledrejection',function(err:any){
         if(err.reason && err.reason.stack){
