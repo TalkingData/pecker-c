@@ -4,7 +4,7 @@ import iView from "iview";
 import "iview/dist/styles/iview.css";
 import Vue from "vue";
 import Vuex from "vuex";
-import YZMonitor from "yunzhen"; // 监控sdk
+import YZMonitor from "pecker-c"; // 监控sdk
 import store from "./store";
 import App from "./App";
 import router from "./router";
@@ -15,7 +15,7 @@ Vue.use(Vuex);
 Vue.config.productionTip = false;
 YZMonitor.config = {
   disable: process.env == "production" ? 1 : 0,
-  appkey: "bf85ca2541ab7ea8fe584f98c787250f",
+  appkey: "49e91c82bab41ac59bc1efc798df720f",
   uploadUrl: "http://localhost:7001/sdk/commit"
 };
 
